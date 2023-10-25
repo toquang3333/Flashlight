@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:background="@color/main"
+        android:paddingHorizontal="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:paddingVertical="@dimen/_10sdp"
+            android:text="@string/permission"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginVertical="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_permission"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"/>
+        <TextView
+            android:gravity="center"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:textSize="@dimen/_15sdp"
+            android:layout_marginVertical="20dp"
+            android:text="@string/permission_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TableRow
+            android:id="@+id/tableNotif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_16sdp"
+            android:background="@drawable/bg_item_per"
+            android:paddingHorizontal="@dimen/_16sdp"
+            android:paddingVertical="@dimen/_7sdp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/notification"
+                android:textSize="@dimen/_13sdp" />
+
+            <ImageView
+                android:id="@+id/swPer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/switch_off"
+                android:layout_marginEnd="@dimen/_5sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bg_item_per"
+            android:paddingHorizontal="@dimen/_16sdp"
+            android:paddingVertical="@dimen/_7sdp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/storage"
+                android:textSize="@dimen/_13sdp" />
+
+            <ImageView
+                android:id="@+id/swPer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/switch_off"
+                android:layout_marginEnd="@dimen/_5sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </TableRow>
+        <TextView
+            android:id="@+id/tvContinue"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15sdp"
+            android:layout_marginTop="50dp"
+            android:text="@string/tv_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

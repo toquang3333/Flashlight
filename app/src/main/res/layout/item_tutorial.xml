@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/img_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_logo"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:gravity="center"
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:fontWeight="700"
+            android:textStyle="bold"
+            android:text="Tap the signature button to make signature and initials"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            />
+
+        <View
+            android:layout_gravity="center"
+            android:id="@+id/view"
+            android:layout_width="75dp"
+            android:layout_height="3dp"
+            android:layout_below="@+id/tv_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/main" />
+    </LinearLayout>
+
+</LinearLayout>

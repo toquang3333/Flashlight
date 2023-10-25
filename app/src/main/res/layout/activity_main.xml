@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/backgroud"
+    tools:context=".ui.MainActivity">
+
+        <RelativeLayout
+            android:id="@+id/chedo"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/bordermoring"
+                android:layout_marginTop="59dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="300dp"
+                android:layout_width="44dp"
+                android:layout_height="27dp"
+                android:src="@drawable/boder"/>
+            <ImageView
+                android:id="@+id/bordereving"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="61dp"
+                android:layout_marginRight="310dp"
+                />
+
+        </RelativeLayout>
+
+    
+    <ImageView
+        android:layout_width="141dp"
+        android:layout_height="141dp"
+        android:background="@drawable/ellipse1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="148dp"
+        />
+    <ImageView
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:background="@drawable/ellipse2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="159dp"
+        />
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:background="@drawable/ellipse3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="169dp"
+        />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/poweroff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp"
+        />
+
+
+    <TextView
+        android:layout_width="78dp"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="315dp"
+        android:text="Turn on"
+        android:textColor="#838386"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+    
+    <RelativeLayout
+        android:layout_width="214dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="372dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/bodersos"/>
+        <TextView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:background="@drawable/flash1"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="14dp"/>
+        <ImageView
+            android:layout_marginLeft="77dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/bodersos"/>
+        <TextView
+            android:textColor="#ffff"
+            android:layout_width="33dp"
+            android:layout_height="22dp"
+            android:text="SOS"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="88dp"/>
+        <ImageView
+            android:layout_marginLeft="153dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/bodersos"/>
+        <TextView
+            android:textColor="#ffff"
+            android:layout_width="33dp"
+            android:layout_height="28dp"
+            android:background="@drawable/layer3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="160dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="58dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="134dp"
+        android:layout_height="30dp"
+        android:text="Flash Light"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="357dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/setting" />
+    <ImageView
+        android:layout_width="156dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="17dp"
+       android:layout_marginRight="187dp"
+        android:background="@drawable/changecolor"/>
+    <ImageView
+        android:layout_width="156dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginLeft="234dp"
+        android:background="@drawable/flashdo"/>
+
+    <ImageView
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="573dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginLeft="234dp"
+        android:background="@drawable/notification"/>
+
+    <RelativeLayout
+        android:layout_marginRight="187dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="573dp"
+        android:background="@drawable/bodercamera"
+        android:layout_width="156dp"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/camera" />
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/compass" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="105dp"
+            android:background="@drawable/group" />
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="360dp"
+        android:layout_height="122dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/img19" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="StreamYard is a live streaming studio"
+                        android:textColor="#7879F1"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="top"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The easiest way to create professional livestream. Get started today."
+                        android:textColor="#1A1C21"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="328dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boderinstall"
+                android:gravity="center"
+                android:text="INSTALL"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BaseProject</string>
+    <string name="this_action_can_contain_ads">This action may contain advertising</string>
+    <string name="english">English</string>
+    <string name="language">Language</string>
+    <string name="permission">Permission</string>
+    <string name="next">NEXT</string>
+    <string name="back">BACK</string>
+    <string name="tutorial1">Tap anywhere to create a filed</string>
+    <string name="tutorial2">Tap the profile button to get the value</string>
+    <string name="tutorial3">Tap the signature button to make signature and initials</string>
+    <string name="tutorial4">Create PDF file from Photo Library</string>
+    <string name="tutorial5">Create PDF file from Camera</string>
+    <string name="permission_content">This app needs permissions below to work properly</string>
+    <string name="allow_access">Allow access</string>
+    <string name="storage">Storage</string>
+    <string name="notification">Notification</string>
+    <string name="tv_continue">Continue</string>
+    <string name="header_warning_permission">Warning permission</string>
+    <string name="desc_warning_permission_dialog">You must allow all Permission to use this app with full feature.</string>
+    <string name="go_to_setting">Go to setting</string>
+</resources>
