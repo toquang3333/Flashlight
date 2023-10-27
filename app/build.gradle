@@ -44,6 +44,8 @@ android {
             enableSplit false
         }
     }
+
+    
 }
 
 dependencies {

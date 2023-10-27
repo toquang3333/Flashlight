@@ -39,6 +39,7 @@
         android:layout_marginTop="148dp"
         />
     <ImageView
+
         android:layout_width="116dp"
         android:layout_height="116dp"
         android:background="@drawable/ellipse2"
@@ -53,6 +54,7 @@
         android:layout_marginTop="169dp"
         />
     <ImageView
+        android:id="@+id/turnOnOffFlash"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:background="@drawable/poweroff"
@@ -124,6 +126,7 @@
         android:textStyle="bold" />
 
     <ImageView
+        android:id="@+id/setting"
         android:layout_width="22dp"
         android:layout_height="22dp"
         android:layout_alignParentStart="true"
@@ -140,6 +143,7 @@
        android:layout_marginRight="187dp"
         android:background="@drawable/changecolor"/>
     <ImageView
+        android:id="@+id/flashlight"
         android:layout_width="156dp"
         android:layout_height="63dp"
         android:layout_marginTop="490dp"

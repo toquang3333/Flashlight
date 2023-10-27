@@ -19,4 +19,7 @@
     <string name="header_warning_permission">Warning permission</string>
     <string name="desc_warning_permission_dialog">You must allow all Permission to use this app with full feature.</string>
     <string name="go_to_setting">Go to setting</string>
+    <string name="Grant_Permission" translatable="false">Grant Permission</string>
+    <string name="Please_grant_all_permissions" translatable="false">Please grant all permissions to access additional functionality.</string>
+    <string name="Go_to_setting" translatable="false">Go to setting</string>
 </resources>
