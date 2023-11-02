@@ -29,11 +29,11 @@ public class LanguageActivity extends BaseActivity<ActivityLanguageBinding> {
     @Override
     protected void initView() {
         startFist = getIntent().getExtras()==null?false:true;
-        if(startFist){
-            binding.btnBack.setVisibility(View.INVISIBLE);
-        }else{
-            binding.btnBack.setVisibility(View.VISIBLE);
-        }
+//        if(startFist){
+//            binding.btnBack.setVisibility(View.INVISIBLE);
+//        }else{
+//            binding.btnBack.setVisibility(View.VISIBLE);
+//        }
 
         initListLanguage();
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);

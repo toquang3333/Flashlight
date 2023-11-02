@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SettingActivity">
+    <ImageView
+        android:id="@+id/outsetting"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="328dp"
+        android:background="@drawable/arrow_left"/>
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="22dp"
+        android:text="Setting"
+        android:textSize="18dp"
+        android:layout_marginTop="67dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#292D32"/>
+
+    <RelativeLayout
+        android:layout_width="328dp"
+        android:layout_height="165dp"
+        android:background="@drawable/bodermorsecode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
+        >
+       <ImageView
+           android:layout_width="23dp"
+           android:layout_height="23dp"
+           android:background="@drawable/flash"
+           android:layout_marginTop="25dp"
+           android:layout_marginLeft="17dp"
+           />
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="20dp"
+            android:text="Automatic on"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="55dp"
+            android:textStyle="bold"
+            android:textColor="#292D32"/>
+        <TextView
+            android:layout_width="203dp"
+            android:layout_height="17dp"
+            android:text="Turn on the flashlight on startup"
+            android:layout_marginTop="39dp"
+            android:layout_marginLeft="55dp"
+            android:textColor="#B7AFAF"/>
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/scCall"
+            android:layout_width="39dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="28dp"
+            android:checked="true"
+            android:elevation="2dp"
+            android:thumb="@drawable/handlecontainer"
+            app:track="@drawable/boderclick" />
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:background="@drawable/outlined"
+            android:layout_marginTop="78dp"
+            android:layout_marginLeft="17dp"
+            />
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="20dp"
+            android:text="Introduce"
+            android:layout_marginTop="78dp"
+            android:layout_marginLeft="55dp"
+            android:textStyle="bold"
+            android:textColor="#292D32"/>
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="127dp"
+            android:background="@drawable/global" />
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="20dp"
+            android:text="Languge"
+            android:layout_marginTop="128dp"
+            android:layout_marginLeft="55dp"
+            android:textStyle="bold"
+            android:textColor="#292D32"/>
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="20dp"
+            android:text="English"
+            android:layout_marginTop="128dp"
+            android:layout_marginLeft="260dp"
+
+            android:textColor="#7879F1"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="42dp"
+        android:layout_height="20dp"
+        android:text="More"
+        android:textStyle="bold"
+        android:textColor="#292D32"
+        android:layout_marginTop="324dp"
+        android:layout_marginLeft="18dp"
+        android:textSize="18dp"/>
+    <RelativeLayout
+        android:layout_width="328dp"
+        android:layout_height="165dp"
+        android:background="@drawable/bodermorsecode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="359dp"
+        >
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:background="@drawable/magicstar"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="17dp"
+            />
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="20dp"
+            android:text="Rate"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="55dp"
+            android:textStyle="bold"
+            android:textColor="#292D32"/>
+
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:background="@drawable/archivebook"
+            android:layout_marginTop="59dp"
+            android:layout_marginLeft="17dp"
+            />
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="20dp"
+            android:text="Privacy policy"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="55dp"
+            android:textStyle="bold"
+            android:textColor="#292D32"/>
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="99dp"
+            android:background="@drawable/share" />
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="20dp"
+            android:text="Share"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="55dp"
+            android:textStyle="bold"
+            android:textColor="#292D32"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:textSize="14dp"
+        android:layout_width="67dp"
+        android:layout_height="20dp"
+        android:text="Vesion 1.0"
+        android:layout_marginTop="564dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#292D32"/>
+</RelativeLayout>

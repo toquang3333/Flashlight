@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:elevation="0dp"
-
     tools:context=".ui.FlashLightActivity">
     <ImageView
         android:id="@+id/out"
@@ -14,7 +13,7 @@
         android:layout_marginTop="66dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="328dp"
-        android:background="@drawable/arrowleft"/>
+        android:background="@drawable/arrow_left"/>
     <TextView
         android:layout_width="95dp"
         android:layout_height="22dp"
@@ -40,18 +39,25 @@
             android:layout_marginTop="14dp"
             android:layout_marginLeft="16dp"
             android:textSize="16dp"/>
-        <TextView
+<!--        <TextView-->
+<!--            android:layout_width="293dp"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:background="#838386"-->
+<!--            android:layout_marginTop="48dp"-->
+<!--            android:layout_marginLeft="13dp"/>-->
+        <SeekBar
+            android:thumb="@drawable/ellipse14"
+            android:progressBackgroundTint="@color/black"
+            android:layout_marginTop="41dp"
             android:layout_width="293dp"
-            android:layout_height="1dp"
-            android:background="#838386"
-            android:layout_marginTop="48dp"
-            android:layout_marginLeft="13dp"/>
-        <ImageView
-            android:layout_width="17dp"
-            android:layout_height="17dp"
-            android:background="@drawable/ellipse14"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="64dp"/>
+            android:layout_height="wrap_content"
+            android:id="@+id/seekbar"/>
+<!--        <ImageView-->
+<!--            android:layout_width="17dp"-->
+<!--            android:layout_height="17dp"-->
+<!--            android:background="@drawable/ellipse14"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:layout_marginLeft="64dp"/>-->
 
         <TextView
             android:layout_width="120dp"
@@ -62,19 +68,28 @@
             android:layout_marginTop="66dp"
             android:layout_marginLeft="16dp"
             android:textSize="16dp"/>
-        <TextView
+<!--        <TextView-->
+<!--            android:layout_width="293dp"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:background="#838386"-->
+<!--            android:layout_marginTop="100dp"-->
+<!--            android:layout_marginLeft="13dp"/>-->
+<!--        <ImageView-->
+<!--            android:layout_width="17dp"-->
+<!--            android:layout_height="17dp"-->
+<!--            android:background="@drawable/ellipse14"-->
+<!--            android:layout_marginTop="92dp"-->
+<!--            android:layout_marginLeft="64dp"/>-->
+        <SeekBar
+            android:thumb="@drawable/ellipse14"
+            android:progressBackgroundTint="@color/black"
+            android:layout_marginTop="95dp"
             android:layout_width="293dp"
-            android:layout_height="1dp"
-            android:background="#838386"
-            android:layout_marginTop="100dp"
-            android:layout_marginLeft="13dp"/>
-        <ImageView
-            android:layout_width="17dp"
-            android:layout_height="17dp"
-            android:background="@drawable/ellipse14"
-            android:layout_marginTop="92dp"
-            android:layout_marginLeft="64dp"/>
+            android:layout_height="wrap_content"
+            android:id="@+id/blinkSpeedSeekBar"/>
+
         <TextView
+            android:id="@+id/blinkButton"
             android:layout_width="292dp"
             android:layout_height="34dp"
             android:text="Test"
@@ -93,6 +108,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="296dp">
         <TextView
+            android:id="@+id/onclick"
             android:layout_width="86dp"
             android:layout_height="22dp"
             android:layout_marginTop="12dp"
@@ -103,6 +119,7 @@
             android:textSize="16dp"
             />
         <TextView
+            android:id="@+id/timeout"
             android:layout_width="41dp"
             android:layout_height="21dp"
             android:layout_marginTop="12dp"
@@ -149,16 +166,17 @@
             android:text="Audio"
             android:textStyle="bold"
             android:textColor="#292D32"/>
+
         <androidx.appcompat.widget.SwitchCompat
-            android:id="@+id/scCall"
+            android:layout_marginTop="19dp"
+            android:id="@+id/scCallfl"
             android:layout_width="50dp"
             android:layout_height="26dp"
-            android:checked="true"
             android:layout_marginLeft="266dp"
+            android:layout_marginRight="9dp"
+            android:checked="true"
             android:elevation="2dp"
             android:thumb="@drawable/handlecontainer"
-            android:layout_marginTop="19dp"
-            android:layout_marginRight="9dp"
             app:track="@drawable/boderclick" />
 <!--        <ImageView-->
 <!--            android:layout_width="51dp"-->
@@ -177,40 +195,60 @@
 <!--            android:layout_marginRight="5dp"/>-->
 
 
-
-        <ImageView
-            android:layout_width="51dp"
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/scVibrat"
+            android:layout_width="50dp"
             android:layout_height="26dp"
-            android:background="@drawable/boderclickt"
             android:layout_marginLeft="266dp"
             android:layout_marginTop="62dp"
             android:layout_marginRight="9dp"
-            />
-        <ImageView
-            android:layout_width="43dp"
-            android:layout_height="40dp"
-            android:background="@drawable/handlecontainer"
-            android:layout_marginLeft="250dp"
-            android:layout_marginTop="55dp"
-            android:layout_marginRight="26dp"/>
+            android:checked="true"
+            android:elevation="2dp"
+            android:thumb="@drawable/handlecontainer"
+            app:track="@drawable/boderclick" />
+<!--        <ImageView-->
+<!--            android:layout_width="51dp"-->
+<!--            android:layout_height="26dp"-->
+<!--            android:background="@drawable/boderclickt"-->
+<!--            android:layout_marginLeft="266dp"-->
+<!--            android:layout_marginTop="62dp"-->
+<!--            android:layout_marginRight="9dp"-->
+<!--            />-->
+<!--        <ImageView-->
+<!--            android:layout_width="43dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:background="@drawable/handlecontainer"-->
+<!--            android:layout_marginLeft="250dp"-->
+<!--            android:layout_marginTop="55dp"-->
+<!--            android:layout_marginRight="26dp"/>-->
 
 
-
-        <ImageView
-            android:layout_width="51dp"
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/scMute"
+            android:layout_width="50dp"
             android:layout_height="26dp"
-            android:background="@drawable/boderclickt"
             android:layout_marginLeft="266dp"
             android:layout_marginTop="102dp"
             android:layout_marginRight="9dp"
-            />
-        <ImageView
-            android:layout_width="43dp"
-            android:layout_height="40dp"
-            android:background="@drawable/handlecontainer"
-            android:layout_marginLeft="250dp"
-            android:layout_marginTop="95dp"
-            android:layout_marginRight="26dp"/>
+            android:checked="true"
+            android:elevation="2dp"
+            android:thumb="@drawable/handlecontainer"
+            app:track="@drawable/boderclick" />
+<!--        <ImageView-->
+<!--            android:layout_width="51dp"-->
+<!--            android:layout_height="26dp"-->
+<!--            android:background="@drawable/boderclickt"-->
+<!--            android:layout_marginLeft="266dp"-->
+<!--            android:layout_marginTop="102dp"-->
+<!--            android:layout_marginRight="9dp"-->
+<!--            />-->
+<!--        <ImageView-->
+<!--            android:layout_width="43dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:background="@drawable/handlecontainer"-->
+<!--            android:layout_marginLeft="250dp"-->
+<!--            android:layout_marginTop="95dp"-->
+<!--            android:layout_marginRight="26dp"/>-->
 
         <ImageView
             android:layout_width="23dp"

@@ -22,4 +22,6 @@
     <string name="Grant_Permission" translatable="false">Grant Permission</string>
     <string name="Please_grant_all_permissions" translatable="false">Please grant all permissions to access additional functionality.</string>
     <string name="Go_to_setting" translatable="false">Go to setting</string>
+    <string name="title">Set time: 0 Minutes 1 Second</string>
+    <string name="selected_time_format">%1$s:%2$s</string>
 </resources>

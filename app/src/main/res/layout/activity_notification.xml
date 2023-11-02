@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.NotificationActivity">
+    <ImageView
+        android:id="@+id/outNotification"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="328dp"
+        android:background="@drawable/arrow_left"/>
+    <TextView
+        android:layout_width="98dp"
+        android:layout_height="22dp"
+        android:text="Notification"
+        android:textSize="18dp"
+        android:layout_marginTop="67dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#292D32"/>
+
+    <RelativeLayout
+        android:layout_width="328dp"
+        android:layout_height="128dp"
+        android:background="@drawable/bodermorsecode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="138dp"
+        >
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:background="@drawable/callincoming"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="17dp"
+            />
+        <TextView
+            android:textSize="16dp"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:text="Incoming call"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="55dp"
+            android:textStyle="bold"
+            android:textColor="#292D32"/>
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/scCall"
+            android:layout_width="47dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="10dp"
+            android:checked="true"
+            android:elevation="2dp"
+            android:thumb="@drawable/handlecontainer"
+            app:track="@drawable/boderclick" />
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:background="@drawable/messages"
+            android:layout_marginTop="59dp"
+            android:layout_marginLeft="17dp"
+            />
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="20dp"
+            android:text="Notifications and SMS"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="55dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="#292D32"/>
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/scSMS"
+            android:layout_width="47dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="55dp"
+            android:checked="true"
+            android:elevation="2dp"
+            android:thumb="@drawable/handlecontainer"
+            app:track="@drawable/boderclick" />
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="95dp"
+            android:background="@drawable/arrowright" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:text="Other applications"
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="55dp"
+            android:textSize="15dp"
+            android:textColor="#65686C"/>
+
+    </RelativeLayout>
+</RelativeLayout>

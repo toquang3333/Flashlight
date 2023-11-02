@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MorsecodeActivity">
+    <ImageView
+        android:id="@+id/outmorsecode"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="328dp"
+        android:background="@drawable/arrow_left"/>
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="22dp"
+        android:text="Morse code"
+        android:textSize="18dp"
+        android:layout_marginTop="67dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#292D32"/>
+
+    <EditText
+        android:hint="Morse code"
+        android:id="@+id/textViewOutputString"
+        android:layout_centerHorizontal="true"
+        android:layout_width="329dp"
+        android:layout_height="108dp"
+        android:background="@drawable/bodermorsecode"
+        android:layout_marginTop="154dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/editTextMorse"
+        android:layout_centerHorizontal="true"
+        android:layout_width="329dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bodermorsecode"
+        android:layout_marginTop="284dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Enter text here"
+        android:textSize="15dp"
+        />
+
+        <ImageView
+            android:id="@+id/imgtrong"
+            android:visibility="invisible"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="298dp"
+            android:background="@drawable/style3"
+            android:layout_marginLeft="320dp"/>
+
+
+    <TextView
+        android:id="@+id/buttonConvertToString"
+        android:layout_width="279dp"
+        android:layout_height="34dp"
+        android:text="Done"
+        android:textSize="14dp"
+        android:textColor="#ffff"
+        android:background="@drawable/bodersos"
+        android:gravity="center"
+        android:layout_marginTop="381dp"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CompassActivity">
+    <ImageView
+        android:id="@+id/outcompass"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="328dp"
+        android:background="@drawable/arrow_left"/>
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="22dp"
+        android:text="Compass"
+        android:textSize="18dp"
+        android:layout_marginTop="67dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#292D32"/>
+
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="364dp"
+        android:background="@drawable/image_compass"
+        android:layout_marginTop="208dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/compass"/>
+    <TextView
+        android:layout_width="54dp"
+        android:layout_height="33dp"
+       android:layout_marginTop="360dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="31dp"
+        android:text="260"
+        android:textColor="#000000"
+        android:id="@+id/txt_degree"
+    />
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/toado"
+        android:layout_marginTop="363dp"
+        android:layout_marginLeft="220dp"/>
+
+</RelativeLayout>
